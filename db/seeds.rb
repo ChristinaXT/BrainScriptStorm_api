@@ -7,3 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 User.create(name: "Christina", username: "christinaxt", password: "password")
+Location.create(city: "Poughkeepsie", state: "New York", country: "USA")
