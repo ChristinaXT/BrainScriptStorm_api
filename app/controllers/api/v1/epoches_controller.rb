@@ -1,4 +1,4 @@
-class EpochesController < ApplicationController
+class Api::V1::EpochesController < ApplicationController
   before_action :set_epoch, only: [:show, :update, :destroy]
 
   # GET /epoches

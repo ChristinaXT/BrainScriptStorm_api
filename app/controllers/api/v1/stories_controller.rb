@@ -1,4 +1,4 @@
-class StoriesController < ApplicationController
+class Api::V1::StoriesController < ApplicationController
   before_action :set_story, only: [:show, :update, :destroy]
 
   # GET /stories

@@ -1,4 +1,4 @@
-class TitlesController < ApplicationController
+class Api::V1::TitlesController < ApplicationController
   before_action :set_title, only: [:show, :update, :destroy]
 
   # GET /titles

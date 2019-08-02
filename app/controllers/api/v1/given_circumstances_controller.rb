@@ -1,4 +1,4 @@
-class GivenCircumstancesController < ApplicationController
+class Api::V1::GivenCircumstancesController < ApplicationController
   before_action :set_given_circumstance, only: [:show, :update, :destroy]
 
   # GET /given_circumstances

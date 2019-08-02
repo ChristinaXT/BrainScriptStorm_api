@@ -1,4 +1,4 @@
-class CharactersController < ApplicationController
+class Api::V1::CharactersController < ApplicationController
   before_action :set_character, only: [:show, :update, :destroy]
 
   # GET /characters

@@ -1,4 +1,4 @@
-class IncitingIncidentsController < ApplicationController
+class Api::V1::IncitingIncidentsController < ApplicationController
   before_action :set_inciting_incident, only: [:show, :update, :destroy]
 
   # GET /inciting_incidents
