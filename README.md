@@ -1,3 +1,3 @@
 # README
 
-React/Redux with Rails API - Brainstorming board for script and story writers with a Movie Database API accessible for inspiration,
+React/Redux/RailsAPI app that allows writers to brainstorm about script or story ideas before writing their next award winning book, play or screenplay 
