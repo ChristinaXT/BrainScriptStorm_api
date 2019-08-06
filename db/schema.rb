@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_02_170439) do
+ActiveRecord::Schema.define(version: 2019_08_02_211037) do
 
   create_table "characters", force: :cascade do |t|
     t.string "name"
@@ -19,19 +19,19 @@ ActiveRecord::Schema.define(version: 2019_08_02_170439) do
   end
 
   create_table "epoches", force: :cascade do |t|
-    t.string "time_period"
+    t.text "time_period"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "given_circumstances", force: :cascade do |t|
-    t.string "character_background"
+    t.text "character_background"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
 
   create_table "inciting_incidents", force: :cascade do |t|
-    t.string "description"
+    t.text "description"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 2019_08_02_170439) do
   end
 
   create_table "stories", force: :cascade do |t|
-    t.string "synopsis"
+    t.text "synopsis"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
