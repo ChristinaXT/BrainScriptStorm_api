@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_08_02_211037) do
+ActiveRecord::Schema.define(version: 2019_08_06_201101) do
 
   create_table "characters", force: :cascade do |t|
     t.string "name"
@@ -28,6 +28,7 @@ ActiveRecord::Schema.define(version: 2019_08_02_211037) do
     t.text "character_background"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "character_id"
   end
 
   create_table "inciting_incidents", force: :cascade do |t|
@@ -48,6 +49,7 @@ ActiveRecord::Schema.define(version: 2019_08_02_211037) do
     t.text "synopsis"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "user_id"
   end
 
   create_table "titles", force: :cascade do |t|
