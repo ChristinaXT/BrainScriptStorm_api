@@ -16,7 +16,6 @@ class Api::V1::UsersController < ApplicationController
     #json_string = MovieSerializer.new(movie).serialized_json
     user_json = UserSerializer.new(@user).serialized_json
     render json: user_json
-
   end
 
   # POST /users
