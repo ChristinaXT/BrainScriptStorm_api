@@ -1,7 +1,7 @@
 class ApplicationController < ActionController::API
-  helper do
+  #helper do
     def current_user
-      #currently a mock verseion of being logged in 
+      #currently a mock verseion of being logged in
       User.first
     end
 

@@ -17,7 +17,8 @@ gem 'fast_jsonapi'
 # Use ActiveModel has_secure_password
  gem 'bcrypt', '~> 3.1.7'
  #gem 'faker'
-
+gem 'webpacker'
+gem 'react-rails'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
