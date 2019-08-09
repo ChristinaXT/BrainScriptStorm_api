@@ -2,7 +2,7 @@ import { resetLoginForm } from "./loginForm.js"
 import { resetSignupForm } from "./signupForm.js"
 import { getMyStories, clearStories } from "./myStories.js"
 
-// synchronous action creators
+// synchronous action creators returns javascript objects
 export const setCurrentUser = user => {
   return {
     type: "SET_CURRENT_USER",
@@ -16,7 +16,7 @@ export const clearCurrentUser = () => {
   }
 }
 
-// asynchronous action creators
+// asynchronous action creators returns a function expression and returns a fetch that allows me to dispatch as needed 
 export const login = (credentials, history) => {
   return dispatch => {
     return fetch("http://localhost:3000/api/v1/login", {
